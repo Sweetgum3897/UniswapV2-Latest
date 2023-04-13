@@ -1,0 +1,19 @@
+{
+  "name": "uniswap-core-latest",
+  "version": "1.0.0",
+  "description": "UniswapV2 upgrade compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "solidity-coverage": "^0.8.2"
+  }
+}
