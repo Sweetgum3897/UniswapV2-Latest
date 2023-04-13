@@ -151,4 +151,12 @@ interface IUniswapV2Router01 {
         uint256 amountOut,
         address[] calldata path
     ) external view returns (uint256[] memory amounts);
+
+     function swapExactTokensForETHSupportingFeeOnTransferTokens(
+        uint256 amountIn,
+        uint256 amountOutMin,
+        address[] calldata path,
+        address to,
+        uint256 deadline
+    ) external;
 }
